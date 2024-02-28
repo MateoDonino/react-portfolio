@@ -1,118 +1,207 @@
 import Image from "next/image";
+import deved from "../public/avatar.png";
 import { Inter } from "next/font/google";
+import Head from "next/head";
+import design from "../public/design.png";
+import code from "../public/code.png";
+import consulting from "../public/consulting.png";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
+import web1 from "../public/web1.PNG";
+import web2 from "../public/web2.png";
+import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
+import web5 from "../public/web5.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div>
+      <Head>
+        <title>Mateo Donino Portfolio</title>
+        <meta name="description" content="Genrated by creators"></meta>
+        <link rel="icon" href="/favicon.ico"></link>
+      </Head>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <main className=" bg-gradient-to-b from-black to-slate-800 px-10 md:px-20 lg:px-40">
+        <section className=" min-h-screen">
+          <nav className=" py-10 mb-12 flex justify-between">
+            <h1 className=" text-2xl font-medium text-white">PORTFOLIO.</h1>
+            <ul className=" flex items-center">
+              <li>
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black px-5 py-3 rounded-md font-medium"
+                  href="https://drive.google.com/file/d/1ASsnNtI-Z9mKJCoMgdCS3IUQdVQzA8a7/view?usp=drive_link"
+                  download="mi-cv.pdf"
+                  target="_blanck"
+                >
+                  Chequea mi CV
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div className=" text-center p-10">
+            <h2 className=" text-5xl py-2 text-white font-medium md:text-6xl">
+              Mateo Donino
+            </h2>
+            <h3 className=" text-2xl py-2 md:text-3xl font-medium text-yellow-100">
+              Full Stack Developer
+            </h3>
+            <p className=" text-md py-5 leading-8 text-white md:text-xl">
+              Hola! Me presento, soy Full Stack Developer, apasionado por crear
+              soluciones web innovadoras y eficientes. Domino tecnologías
+              Frontend como HTML5, CSS3, JavaScript y ReactJS, y Backend como
+              Node.js y Java. Mi enfoque se basa en la colaboración y la entrega
+              de resultados de alta calidad. Me adapto fácilmente a diferentes
+              entornos y siempre estoy dispuesto a aprender y afrontar nuevos
+              desafíos.
+            </p>
+          </div>
+          <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden">
+            <Image src={deved} layout="fill" objectFit="cover" />
+          </div>
+          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-20">
+            <AiFillTwitterCircle />
+            <a
+              href="https://www.linkedin.com/in/mateo-donino-583035192/"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
+            <AiFillYoutube />
+          </div>
+        </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        {/* PROYECTOS SECTION */}
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <section>
+          <div className=" text-center py-10 text-gray-800 md:text-xl">
+            <h3 className=" text-3xl py-1 font-medium text-yellow-100">
+              PROYECTOS.
+            </h3>
+          </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
+          {/* CARD SECTION */}
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+          <div className="lg:flex gap-10">
+            <div className=" text-center shadow-2xl p-10 rounded-xl my-10 container mx-auto">
+              <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
+                <Image
+                  src={web1}
+                  className=" mx-auto rounded-lg object-cover"
+                />
+              </a>
+              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                Tienda de PC
+              </h3>
+              <p className=" text-md py-2 leading-7 text-white">
+                Proyecto simple sobre una pagina web con Carrito de Compras
+                incluido. El mismo se programó con ReactJS y JavaScript para la
+                parte lógica, donde se puede agregar y quitar productos a
+                voluntad, ir de una pagina a otra, etc. Y toda la información es
+                guardada en FireBase.
+              </p>
+              <div className=" mt-5">
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                >
+                  IR A LA WEB
+                </a>
+              </div>
+            </div>
+            <div className=" text-center shadow-2xl p-10 rounded-xl my-10 container mx-auto">
+              <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
+                <Image
+                  src={web1}
+                  className=" mx-auto rounded-lg object-cover"
+                />
+              </a>
+              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                Tienda de PC
+              </h3>
+              <p className=" text-md py-2 leading-7 text-white">
+                Proyecto simple sobre una pagina web con Carrito de Compras
+                incluido. El mismo se programó con ReactJS y JavaScript para la
+                parte lógica, donde se puede agregar y quitar productos a
+                voluntad, ir de una pagina a otra, etc. Y toda la información es
+                guardada en FireBase.
+              </p>
+              <div className=" mt-5">
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                >
+                  IR A LA WEB
+                </a>
+              </div>
+            </div>
+            <div className=" text-center shadow-2xl p-10 rounded-xl my-10 container mx-auto">
+              <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
+                <Image
+                  src={web1}
+                  className=" mx-auto rounded-lg object-cover"
+                />
+              </a>
+              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                Tienda de PC
+              </h3>
+              <p className=" text-md py-2 leading-7 text-white">
+                Proyecto simple sobre una pagina web con Carrito de Compras
+                incluido. El mismo se programó con ReactJS y JavaScript para la
+                parte lógica, donde se puede agregar y quitar productos a
+                voluntad, ir de una pagina a otra, etc. Y toda la información es
+                guardada en FireBase.
+              </p>
+              <div className=" mt-5">
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                >
+                  IR A LA WEB
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="text-center py-10 text-white md:text-xl">
+            <h3 className=" text-3xl py-1 font-medium">
+              SERVICIOS QUE OFREZCO.
+            </h3>
+            <p className=" text-md py-2 leading-8 text-white">
+              <span className=" text-yellow-200 font-medium">
+                Diseño y desarrollo web:{" "}
+              </span>
+              puedo crear sitios web y aplicaciones web a medida que se adapten
+              a tus necesidades específicas, utilizando las últimas tecnologías
+              y frameworks disponibles.
+              <span className=" text-yellow-200 font-medium">
+                {" "}
+                Consultoría:{" "}
+              </span>
+              te puedo asesorar en la selección de la mejor tecnología para tu
+              proyecto, analizar los requisitos y planificar el desarrollo,
+              gestionar equipos de desarrollo e implementar metodologías ágiles
+              de desarrollo.
+              <span className=" text-yellow-200 font-medium">
+                {" "}
+                Soporte técnico:{" "}
+              </span>
+              puedo ayudarte a solucionar problemas técnicos y errores, brindar
+              asistencia técnica a usuarios y clientes, implementar medidas de
+              seguridad y prevención de errores, y actualizar y mantener tu
+              software.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
   );
 }
