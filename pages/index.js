@@ -2,11 +2,7 @@ import Image from "next/image";
 import deved from "../public/avatar.png";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import web1 from "../public/web1.PNG";
 import web2 from "../public/web2.PNG";
 
@@ -64,6 +60,9 @@ export default function Home() {
               target="_blank"
             >
               <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/MateoDonino" target="_blank">
+              <AiFillGithub />
             </a>
           </div>
         </section>
