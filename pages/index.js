@@ -223,30 +223,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-
-        <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
-          <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
-            <Image src={web2} className=" mx-auto rounded-lg object-cover" />
-          </a>
-          <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
-            Portfolio
-          </h3>
-          <p className=" text-md py-2 leading-7 text-white">
-            Si, este mismo proyecto. Portfolio web con mi resumen, donde se
-            puede encontrar mi CV como tambien el poder interactuar para poder
-            ir a mi LinkedIn y a las paginas de los proyectos. Programado con
-            React, Next.js y Taildwind CSS.
-          </p>
-          <div className=" mt-10">
-            <a
-              className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
-              href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
-              target="_autoblanck"
-            >
-              IR A LA WEB
-            </a>
-          </div>
-        </div>
       </main>
     </div>
   );
