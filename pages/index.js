@@ -8,6 +8,7 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import web1 from "../public/web1.PNG";
+import web2 from "../public/web2.PNG";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -109,7 +110,7 @@ export default function Home() {
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
                 <Image
-                  src={web1}
+                  src={web2}
                   className=" mx-auto rounded-lg object-cover"
                 />
               </a>
