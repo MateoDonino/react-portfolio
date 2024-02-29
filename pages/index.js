@@ -2,20 +2,13 @@ import Image from "next/image";
 import deved from "../public/avatar.png";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import design from "../public/design.png";
-import code from "../public/code.png";
-import consulting from "../public/consulting.png";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
 import web1 from "../public/web1.PNG";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
+import web2 from "../public/web2.PNG";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,14 +38,14 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className=" text-center p-10">
+          <div className=" text-center">
             <h2 className=" text-5xl py-2 text-white font-medium md:text-6xl">
               Mateo Donino
             </h2>
             <h3 className=" text-2xl py-2 md:text-3xl font-medium text-yellow-100">
               Full Stack Developer
             </h3>
-            <p className=" text-md py-5 leading-8 text-white md:text-xl">
+            <p className=" text-md py-2 leading-8 text-white md:text-xl">
               Hola! Me presento, soy Full Stack Developer, apasionado por crear
               soluciones web innovadoras y eficientes. Domino tecnologías
               Frontend como HTML5, CSS3, JavaScript y ReactJS, y Backend como
@@ -62,18 +55,16 @@ export default function Home() {
               desafíos.
             </p>
           </div>
-          <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden">
+          <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden mt-10">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
-          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-20">
-            <AiFillTwitterCircle />
+          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-10">
             <a
               href="https://www.linkedin.com/in/mateo-donino-583035192/"
               target="_blank"
             >
               <AiFillLinkedin />
             </a>
-            <AiFillYoutube />
           </div>
         </section>
 
@@ -81,7 +72,7 @@ export default function Home() {
 
         <section>
           <div className=" text-center md:text-xl">
-            <h3 className=" text-3xl mt-10 font-medium text-yellow-100">
+            <h3 className=" text-3xl font-medium text-yellow-100">
               PROYECTOS.
             </h3>
           </div>
@@ -89,7 +80,7 @@ export default function Home() {
           {/* CARD SECTION */}
 
           <div className="lg:flex gap-10">
-            <div className=" text-center shadow-2xl p-10 rounded-xl my-10 container mx-auto">
+            <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
                 <Image
                   src={web1}
@@ -101,12 +92,38 @@ export default function Home() {
               </h3>
               <p className=" text-md py-2 leading-7 text-white">
                 Proyecto simple sobre una pagina web con Carrito de Compras
-                incluido. El mismo se programó con ReactJS y JavaScript para la
+                incluido. El mismo se programó con React y JavaScript para la
                 parte lógica, donde se puede agregar y quitar productos a
-                voluntad, ir de una pagina a otra, etc. Y toda la información es
+                voluntad, ir de una pagina a otra, etc. Toda la información es
                 guardada en FireBase.
               </p>
               <div className=" mt-5">
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                  target="_autoblanck"
+                >
+                  IR A LA WEB
+                </a>
+              </div>
+            </div>
+            <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
+              <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
+                <Image
+                  src={web2}
+                  className=" mx-auto rounded-lg object-cover"
+                />
+              </a>
+              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                Portfolio
+              </h3>
+              <p className=" text-md py-2 leading-7 text-white">
+                Si, este mismo proyecto. Portfolio web con mi resumen, donde se
+                puede encontrar mi CV como tambien el poder interactuar para
+                poder ir a mi LinkedIn y a las paginas de los proyectos.
+                Programado con React, Next.js y Taildwind CSS.
+              </p>
+              <div className=" mt-10">
                 <a
                   className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
@@ -146,7 +163,7 @@ export default function Home() {
             <div className=" text-center shadow-2xl p-10 rounded-xl my-10 container mx-auto">
               <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
                 <Image
-                  src={web1}
+                  src={web2}
                   className=" mx-auto rounded-lg object-cover"
                 />
               </a>
@@ -172,6 +189,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* SERVICIOS SECTION */}
 
         <section>
           <div className="text-center py-10 text-white md:text-xl">
