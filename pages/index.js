@@ -80,8 +80,8 @@ export default function Home() {
         {/* PROYECTOS SECTION */}
 
         <section>
-          <div className=" text-center py-10 text-gray-800 md:text-xl">
-            <h3 className=" text-3xl py-1 font-medium text-yellow-100">
+          <div className=" text-center md:text-xl">
+            <h3 className=" text-3xl mt-10 font-medium text-yellow-100">
               PROYECTOS.
             </h3>
           </div>
@@ -110,6 +110,7 @@ export default function Home() {
                 <a
                   className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                  target="_autoblanck"
                 >
                   IR A LA WEB
                 </a>
@@ -136,6 +137,7 @@ export default function Home() {
                 <a
                   className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                  target="_autoblanck"
                 >
                   IR A LA WEB
                 </a>
@@ -162,6 +164,7 @@ export default function Home() {
                 <a
                   className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                  target="_autoblanck"
                 >
                   IR A LA WEB
                 </a>
@@ -172,7 +175,7 @@ export default function Home() {
 
         <section>
           <div className="text-center py-10 text-white md:text-xl">
-            <h3 className=" text-3xl py-1 font-medium">
+            <h3 className=" text-3xl py-1 font-medium text-yellow-100">
               SERVICIOS QUE OFREZCO.
             </h3>
             <p className=" text-md py-2 leading-8 text-white">
