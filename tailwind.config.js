@@ -14,8 +14,8 @@ module.exports = {
       },
       fontFamily: {
         burtons: "burtons",
-      }
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

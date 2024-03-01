@@ -54,7 +54,7 @@ export default function Home() {
           <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden mt-10">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
-          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-10">
+          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-12">
             <a
               href="https://www.linkedin.com/in/mateo-donino-583035192/"
               target="_blank"
@@ -70,7 +70,7 @@ export default function Home() {
         {/* PROYECTOS SECTION */}
 
         <section>
-          <div className=" text-center md:text-xl">
+          <div className=" text-center md:text-xl mt-8">
             <h3 className=" text-3xl font-medium text-yellow-100">
               PROYECTOS.
             </h3>
