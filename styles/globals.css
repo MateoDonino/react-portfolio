@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 320px) {
+  .relative.mx-auto.rounded-full.w-80.h-80.overflow-hidden.mt-10 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .relative.mx-auto.rounded-full.w-80.h-80.overflow-hidden.mt-10 {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
