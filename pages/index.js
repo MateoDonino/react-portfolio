@@ -2,7 +2,8 @@ import Image from "next/image";
 import deved from "../public/avatar.png";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import { Icon } from "@iconify/react";
 import web1 from "../public/web1.PNG";
 import web2 from "../public/web2.PNG";
 
@@ -19,6 +20,7 @@ export default function Home() {
 
       <main className=" bg-gradient-to-b from-black to-slate-800 px-10 md:px-20 lg:px-40">
         <section className=" min-h-screen">
+          {/* NAVBAR */}
           <nav className=" py-10 mb-12 flex justify-between">
             <h1 className=" text-2xl font-medium text-white">PORTFOLIO.</h1>
             <ul className=" flex items-center">
@@ -65,18 +67,35 @@ export default function Home() {
               <AiFillGithub />
             </a>
           </div>
-        </section>
 
-        {/* PROYECTOS SECTION */}
+          {/* HERRAMIENTAS */}
 
-        <section>
-          <div className=" text-center md:text-xl mt-8">
+          <div className=" flex justify-center gap-16 mt-12">
+            <h3 className=" text-3xl font-medium text-yellow-100">
+              HERRAMIENTAS.
+            </h3>
+          </div>
+          <div className=" text-5xl flex justify-center gap-16 mt-10">
+            <Icon icon="devicon:html5" />
+            <Icon icon="devicon:css3" />
+            <Icon icon="devicon:javascript" />
+            <Icon icon="devicon:react" />
+            <Icon icon="devicon:java" />
+            <Icon icon="devicon:mysql" />
+            <Icon icon="devicon:nodejs-wordmark" />
+            <Icon icon="devicon:tailwindcss" />
+            <Icon icon="devicon:git" />
+          </div>
+
+          {/* PROYECTOS */}
+
+          <div className=" text-center md:text-xl mt-12">
             <h3 className=" text-3xl font-medium text-yellow-100">
               PROYECTOS.
             </h3>
           </div>
 
-          {/* CARD SECTION */}
+          {/* CARD */}
 
           <div className="lg:flex gap-10">
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
@@ -140,31 +159,13 @@ export default function Home() {
                   IR A LA WEB
                 </a>
               </div>
-              <div className=" mt-10"></div>
-            </div>
-            <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
-              <a href="https://react-portfolio-steel-sigma.vercel.app/">
-                <Image
-                  src={web2}
-                  className=" mx-auto rounded-lg object-cover"
-                />
-              </a>
-              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
-                Portfolio
-              </h3>
-              <p className=" text-md py-2 leading-7 text-white">
-                Si, este mismo proyecto. Portfolio web con mi resumen, donde se
-                puede encontrar mi CV como tambien el poder interactuar para
-                poder ir a mi LinkedIn y a las paginas de los proyectos.
-                Programado con React, Next.js y Taildwind CSS.
-              </p>
-              <div className=" mt-12">
+              <div className=" mt-10">
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
-                  href="https://react-portfolio-steel-sigma.vercel.app/"
+                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
                 >
-                  IR A LA WEB
+                  CODIGO EN GITHUB
                 </a>
               </div>
             </div>
@@ -191,15 +192,57 @@ export default function Home() {
                   target="_autoblanck"
                 >
                   IR A LA WEB
+                </a>
+              </div>
+              <div className=" mt-10">
+                <a
+                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://github.com/MateoDonino/react-portfolio.git"
+                  target="_autoblanck"
+                >
+                  CODIGO EN GITHUB
+                </a>
+              </div>
+            </div>
+            <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
+              <a href="https://react-portfolio-steel-sigma.vercel.app/">
+                <Image
+                  src={web2}
+                  className=" mx-auto rounded-lg object-cover"
+                />
+              </a>
+              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                Portfolio
+              </h3>
+              <p className=" text-md py-2 leading-7 text-white">
+                Si, este mismo proyecto. Portfolio web con mi resumen, donde se
+                puede encontrar mi CV como tambien el poder interactuar para
+                poder ir a mi LinkedIn y a las paginas de los proyectos.
+                Programado con React, Next.js y Taildwind CSS.
+              </p>
+              <div className=" mt-12">
+                <a
+                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://react-portfolio-steel-sigma.vercel.app/"
+                  target="_autoblanck"
+                >
+                  IR A LA WEB
+                </a>
+              </div>
+              <div className=" mt-10">
+                <a
+                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://github.com/MateoDonino/react-portfolio.git"
+                  target="_autoblanck"
+                >
+                  CODIGO EN GITHUB
                 </a>
               </div>
             </div>
           </div>
-        </section>
 
-        {/* SERVICIOS SECTION */}
+          {/* SERVICIOS */}
 
-        <section>
           <div className="text-center py-10 text-white md:text-xl">
             <h3 className=" text-3xl py-1 font-medium text-yellow-100">
               SERVICIOS QUE OFREZCO.
