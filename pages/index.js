@@ -105,6 +105,15 @@ export default function Home() {
                   IR A LA WEB
                 </a>
               </div>
+              <div className=" mt-10">
+                <a
+                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  href="https://github.com/MateoDonino/tienda-donino-kldc28o6b-mateodonino"
+                  target="_autoblanck"
+                >
+                  CODIGO EN GITHUB
+                </a>
+              </div>
             </div>
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://react-portfolio-steel-sigma.vercel.app/">
@@ -131,6 +140,7 @@ export default function Home() {
                   IR A LA WEB
                 </a>
               </div>
+              <div className=" mt-10"></div>
             </div>
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://react-portfolio-steel-sigma.vercel.app/">
