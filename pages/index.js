@@ -2,7 +2,7 @@ import Image from "next/image";
 import deved from "../public/avatar.png";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { AiFillLinkedin, AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { Icon } from "@iconify/react";
 import web1 from "../public/web1.PNG";
 import web2 from "../public/web2.PNG";
@@ -70,9 +70,9 @@ export default function Home() {
 
           {/* HERRAMIENTAS */}
 
-          <div className=" flex justify-center gap-16 mt-12">
+          <div className=" flex justify-center gap-16 mt-12 text-center">
             <h3 className=" text-3xl font-medium text-yellow-100">
-              HERRAMIENTAS.
+              LENGUAJES Y FRAMEWORKS.
             </h3>
           </div>
           <div className=" text-5xl flex justify-center gap-16 mt-10">
@@ -81,10 +81,10 @@ export default function Home() {
             <Icon icon="devicon:javascript" />
             <Icon icon="devicon:react" />
             <Icon icon="devicon:java" />
-            <Icon icon="devicon:mysql" />
             <Icon icon="devicon:nodejs-wordmark" />
             <Icon icon="devicon:tailwindcss" />
             <Icon icon="devicon:git" />
+            <Icon icon="devicon:nextjs" />
           </div>
 
           {/* PROYECTOS */}
@@ -97,7 +97,7 @@ export default function Home() {
 
           {/* CARD */}
 
-          <div className="lg:flex gap-10">
+          <div className=" lg:flex gap-10 ">
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
                 <Image

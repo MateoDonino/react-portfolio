@@ -15,3 +15,17 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 1440px) {
+  .bg-gradient-to-r
+    .from-yellow-300
+    .to-yellow-100
+    .text-black
+    .font-medium
+    .px-5
+    .py-3
+    .rounded-md {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
