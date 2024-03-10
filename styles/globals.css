@@ -16,16 +16,37 @@
   }
 }
 
-@media (max-width: 1440px) {
-  .bg-gradient-to-r
-    .from-yellow-300
-    .to-yellow-100
-    .text-black
-    .font-medium
-    .px-5
-    .py-3
-    .rounded-md {
-    width: 1440px;
-    margin: 0 auto;
+@media screen and (max-width: 960px) {
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .a {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lg\:flex {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
   }
 }

@@ -26,7 +26,7 @@ export default function Home() {
             <ul className=" flex items-center">
               <li>
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black px-3 py-3 rounded-md"
+                  className=" button bg-gradient-to-r from-yellow-100 to-yellow-300 text-black px-3 py-3 rounded-md"
                   href="https://drive.google.com/file/d/1ASsnNtI-Z9mKJCoMgdCS3IUQdVQzA8a7/view?usp=drive_link"
                   download="mi-cv.pdf"
                   target="_blanck"
@@ -70,21 +70,23 @@ export default function Home() {
 
           {/* HERRAMIENTAS */}
 
-          <div className=" flex justify-center gap-16 mt-12 text-center">
-            <h3 className=" text-3xl font-medium text-yellow-100">
-              LENGUAJES Y FRAMEWORKS.
-            </h3>
-          </div>
-          <div className=" text-5xl flex justify-center gap-16 mt-10">
-            <Icon icon="devicon:html5" />
-            <Icon icon="devicon:css3" />
-            <Icon icon="devicon:javascript" />
-            <Icon icon="devicon:react" />
-            <Icon icon="devicon:java" />
-            <Icon icon="devicon:nodejs-wordmark" />
-            <Icon icon="devicon:tailwindcss" />
-            <Icon icon="devicon:git" />
-            <Icon icon="devicon:nextjs" />
+          <div className=" ">
+            <div className=" flex justify-center gap-16 mt-12 text-center">
+              <h3 className=" text-3xl font-medium text-yellow-100">
+                LENGUAJES Y FRAMEWORKS.
+              </h3>
+            </div>
+            <div className=" icon-container text-4xl flex justify-center gap-16 mt-10">
+              <Icon icon="devicon:html5" />
+              <Icon icon="devicon:css3" />
+              <Icon icon="devicon:javascript" />
+              <Icon icon="devicon:react" />
+              <Icon icon="devicon:java" />
+              <Icon icon="devicon:nodejs-wordmark" />
+              <Icon icon="devicon:tailwindcss" />
+              <Icon icon="devicon:git" />
+              <Icon icon="devicon:nextjs" />
+            </div>
           </div>
 
           {/* PROYECTOS */}
@@ -117,7 +119,7 @@ export default function Home() {
               </p>
               <div className=" mt-5">
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
                   target="_autoblanck"
                 >
@@ -126,7 +128,7 @@ export default function Home() {
               </div>
               <div className=" mt-10">
                 <a
-                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
                   href="https://github.com/MateoDonino/tienda-donino-kldc28o6b-mateodonino"
                   target="_autoblanck"
                 >
@@ -152,7 +154,7 @@ export default function Home() {
               </p>
               <div className=" mt-12">
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://react-portfolio-steel-sigma.vercel.app/"
                   target="_autoblanck"
                 >
@@ -161,7 +163,7 @@ export default function Home() {
               </div>
               <div className=" mt-10">
                 <a
-                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
                   href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
                 >
@@ -187,7 +189,7 @@ export default function Home() {
               </p>
               <div className=" mt-12">
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://react-portfolio-steel-sigma.vercel.app/"
                   target="_autoblanck"
                 >
@@ -196,7 +198,7 @@ export default function Home() {
               </div>
               <div className=" mt-10">
                 <a
-                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
                   href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
                 >
@@ -222,7 +224,7 @@ export default function Home() {
               </p>
               <div className=" mt-12">
                 <a
-                  className=" bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://react-portfolio-steel-sigma.vercel.app/"
                   target="_autoblanck"
                 >
@@ -231,7 +233,7 @@ export default function Home() {
               </div>
               <div className=" mt-10">
                 <a
-                  className=" bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
+                  className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
                   href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
                 >
