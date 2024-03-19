@@ -53,10 +53,10 @@ export default function Home() {
               desafíos.
             </p>
           </div>
-          <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden mt-10">
+          <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden p-10 m-10">
             <Image src={deved} layout="fill" objectFit="contain" />
           </div>
-          <div className=" text-5xl flex justify-center gap-16 text-gray-300 mt-12">
+          <div className=" text-5xl flex justify-center gap-16 text-gray-300 p-2 m-2">
             <a
               href="https://www.linkedin.com/in/mateo-donino-583035192/"
               target="_blank"
@@ -71,7 +71,7 @@ export default function Home() {
           {/* HERRAMIENTAS */}
 
           <div className=" ">
-            <div className=" flex justify-center gap-16 mt-12 text-center">
+            <div className=" flex justify-center gap-16 p-6 m-6 text-center">
               <h3 className=" text-3xl font-medium text-yellow-100">
                 LENGUAJES Y FRAMEWORKS.
               </h3>
@@ -101,7 +101,7 @@ export default function Home() {
 
           {/* CARD */}
 
-          <div className=" lg:flex gap-10 ">
+          <div className=" lg:flex gap-10">
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
                 <Image
