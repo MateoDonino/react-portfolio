@@ -83,6 +83,8 @@ export default function Home() {
               <Icon icon="devicon:react" />
               <Icon icon="devicon:java" />
               <Icon icon="devicon:nodejs-wordmark" />
+              <Icon icon="devicon:mongodb-wordmark" />
+              <Icon icon="skill-icons:expressjs-light" />
               <Icon icon="devicon:tailwindcss" />
               <Icon icon="devicon:git" />
               <Icon icon="devicon:nextjs" />
