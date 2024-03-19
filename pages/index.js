@@ -40,12 +40,12 @@ export default function Home() {
             <h2 className=" text-5xl py-2 text-white font-medium md:text-6xl">
               Mateo Donino
             </h2>
-            <h3 className=" text-2xl py-2 md:text-3xl font-medium text-yellow-100">
+            <h3 className=" text-2xl py-2 md:text-3xl font-medium text-green-100">
               Full Stack Developer
             </h3>
             <p className=" text-md py-2 leading-8 text-white md:text-xl">
-              Hola! Me presento, soy Full Stack Developer, apasionado por crear
-              soluciones web innovadoras y eficientes. Domino tecnologías
+              Hola! Me presento, soy Mateo y soy Programador, apasionado por
+              crear soluciones web innovadoras y eficientes. Domino tecnologías
               Frontend como HTML5, CSS3, JavaScript y ReactJS, y Backend como
               Node.js y Java. Mi enfoque se basa en la colaboración y la entrega
               de resultados de alta calidad. Me adapto fácilmente a diferentes
