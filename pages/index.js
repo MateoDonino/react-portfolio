@@ -40,7 +40,7 @@ export default function Home() {
             <h2 className=" text-5xl py-2 text-white font-medium md:text-6xl">
               Mateo Donino
             </h2>
-            <h3 className=" text-2xl py-2 md:text-3xl font-medium text-green-100">
+            <h3 className=" text-2xl py-2 md:text-3xl font-medium text-yellow-200">
               Full Stack Developer
             </h3>
             <p className=" text-md py-2 leading-8 text-white md:text-xl">
