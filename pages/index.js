@@ -47,10 +47,10 @@ export default function Home() {
               Hola! Me presento, soy Mateo y soy Programador, apasionado por
               crear soluciones web innovadoras y eficientes. Domino tecnologías
               Frontend como HTML5, CSS3, JavaScript y ReactJS, y Backend como
-              Node.js y Java. Mi enfoque se basa en la colaboración y la entrega
-              de resultados de alta calidad. Me adapto fácilmente a diferentes
-              entornos y siempre estoy dispuesto a aprender y afrontar nuevos
-              desafíos.
+              Node.js, Express.js, MongoDB y Java. Mi enfoque se basa en la
+              colaboración y la entrega de resultados de alta calidad. Me adapto
+              fácilmente a diferentes entornos y siempre estoy dispuesto a
+              aprender y afrontar nuevos desafíos.
             </p>
           </div>
           <div className=" relative mx-auto rounded-full w-80 h-80 overflow-hidden p-10 m-10">
@@ -103,26 +103,25 @@ export default function Home() {
 
           <div className=" lg:flex gap-10">
             <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
-              <a href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/">
+              <a href="https://react-portfolio-steel-sigma.vercel.app/">
                 <Image
-                  src={web1}
+                  src={web2}
                   className=" mx-auto rounded-lg object-cover"
                 />
               </a>
               <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
-                Tienda de PC
+                Portfolio
               </h3>
               <p className=" text-md py-2 leading-7 text-white">
-                Proyecto simple sobre una pagina web con Carrito de Compras
-                incluido. El mismo se programó con React y JavaScript para la
-                parte lógica, donde se puede agregar y quitar productos a
-                voluntad, ir de una pagina a otra, etc. Toda la información es
-                guardada en FireBase.
+                Si, este mismo proyecto. Portfolio web con mi resumen, donde se
+                puede encontrar mi CV como tambien el poder interactuar para
+                poder ir a mi LinkedIn y a las paginas de los proyectos.
+                Programado con React, Next.js y Taildwind CSS.
               </p>
-              <div className=" mt-5">
+              <div className=" mt-12">
                 <a
                   className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
-                  href="https://tienda-donino-kldc28o6b-mateodonino.vercel.app/"
+                  href="https://react-portfolio-steel-sigma.vercel.app/"
                   target="_autoblanck"
                 >
                   IR A LA WEB
@@ -131,7 +130,7 @@ export default function Home() {
               <div className=" mt-10">
                 <a
                   className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
-                  href="https://github.com/MateoDonino/tienda-donino-kldc28o6b-mateodonino"
+                  href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
                 >
                   CODIGO EN GITHUB
