@@ -207,38 +207,38 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className=" text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
+            <div className="text-center shadow-2xl p-10 rounded-3xl my-10 container mx-auto">
               <a href="https://react-portfolio-steel-sigma.vercel.app/">
                 <Image
                   src={web2}
                   className=" mx-auto rounded-lg object-cover"
                 />
               </a>
-              <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
-                Portfolio
-              </h3>
-              <p className=" text-md py-2 leading-7 text-white">
-                Si, este mismo proyecto. Portfolio web con mi resumen, donde se
-                puede encontrar mi CV como tambien el poder interactuar para
-                poder ir a mi LinkedIn y a las paginas de los proyectos.
-                Programado con React, Next.js y Taildwind CSS.
-              </p>
-              <div className=" mt-12">
+              <div>
+                <h3 className=" text-3xl font-medium pt-8 pb-2 text-yellow-100">
+                  Portfolio
+                </h3>
+                <p className=" text-md py-2 leading-7 text-white">
+                  Si, este mismo proyecto. Portfolio web con mi resumen, donde
+                  se puede encontrar mi CV como tambien el poder interactuar
+                  para poder ir a mi LinkedIn y a las paginas de los proyectos.
+                  Programado con React, Next.js y Taildwind CSS.
+                </p>
+              </div>
+              <div className=" mt-10 grid">
                 <a
-                  className=" button-container bg-gradient-to-r from-yellow-100 to-yellow-300 text-black font-medium px-5 py-3 rounded-md"
                   href="https://react-portfolio-steel-sigma.vercel.app/"
                   target="_autoblanck"
+                  className=" py-3 rounded-md bg-gradient-to-r text-black font-medium  from-yellow-100 to-yellow-300"
                 >
-                  IR A LA WEB
+                  <button>IR A LA WEB</button>
                 </a>
-              </div>
-              <div className=" mt-10">
                 <a
-                  className=" button-container bg-gradient-to-r from-yellow-300 to-yellow-100 text-black font-medium px-5 py-3 rounded-md"
                   href="https://github.com/MateoDonino/react-portfolio.git"
                   target="_autoblanck"
+                  className=" py-3 rounded-md bg-gradient-to-r text-black font-medium  from-yellow-100 to-yellow-300 mt-4"
                 >
-                  CODIGO EN GITHUB
+                  <button>CODIGO EN GITHUB</button>
                 </a>
               </div>
             </div>
